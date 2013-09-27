@@ -1,13 +1,13 @@
-unit Unit1;
+unit Unit2;
 
 interface
 
 uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
-  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, Unit2;
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs;
 
 type
-  TChemMath_baseform = class(TForm)
+  Tbalance_of_acids = class(TForm)
   private
     { Private declarations }
   public
@@ -15,7 +15,7 @@ type
   end;
 
 var
-  ChemMath_baseform: TChemMath_baseform;
+  balance_of_acids: Tbalance_of_acids;
 
 implementation
 

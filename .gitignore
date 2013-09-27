@@ -7,4 +7,6 @@ __history
 *.map
 *.exe
 *.dll
+*.apk
+source/Android/*
 bin/*
